@@ -1,0 +1,88 @@
+.App {
+  text-align: center;
+}
+body{
+  background-color: rgba(255,229,8,0.5);
+}
+
+div button{
+  border: 2px solid red;
+  border-radius: 16px;
+  background-color: rgba(254,166,3,0.8);
+  color: red;
+  font-size: 2em;
+  max-width:250px;
+  word-wrap: break-word
+}
+p{
+  color:rgb(254, 95, 3);
+  font-size: 1.3em;
+  font-weight: 500;
+  text-align: center
+}
+h1{
+  color: rgba(254,166,3,1);
+  text-align: center;
+  font-size: 3em;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.reg{
+  background-color:rgba(254,166,3,1) ;
+  color:red;
+  border:none;
+  padding:.5rem 1rem;
+  font-size:1.25rem;
+  line-height:1.5;
+  border-radius:.3rem;
+  margin:auto;
+  margin-top: 54px;
+  display: block;
+  text-align: center;
+  width:fit-content;
+  text-decoration: none;
+}
+h2{margin: 16px}
+.form-control{
+  margin: 8px auto;
+  max-width: 60%;
+}
+.row {
+  display: grid;
+  grid-template-columns:repeat(3,200px); /*change this*/
+  padding:10px;
+  justify-content: space-between;  /*add this*/
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
